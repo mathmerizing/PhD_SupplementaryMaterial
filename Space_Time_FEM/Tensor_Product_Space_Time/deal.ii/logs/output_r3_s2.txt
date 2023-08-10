@@ -1,0 +1,112 @@
+CLI ARGUMENTS:
+s = 2
+r = 3
+-------------------------------------------------------------
+|                REFINEMENT CYCLE: 0                         |
+-------------------------------------------------------------
+Slab Q_1 = Ω x (0,1):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 4 (space), 1 (time)
+   Number of degrees of freedom: 9 (space), 4 (time)
+Slab Q_2 = Ω x (1,2):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 4 (space), 1 (time)
+   Number of degrees of freedom: 9 (space), 4 (time)
+Slab Q_3 = Ω x (2,3):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 4 (space), 1 (time)
+   Number of degrees of freedom: 9 (space), 4 (time)
+Slab Q_4 = Ω x (3,4):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 4 (space), 1 (time)
+   Number of degrees of freedom: 9 (space), 4 (time)
+-------------------------------------------------------------
+|                REFINEMENT CYCLE: 1                         |
+-------------------------------------------------------------
+Slab Q_1 = Ω x (0,1):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 8 (space), 2 (time)
+   Number of degrees of freedom: 17 (space), 8 (time)
+Slab Q_2 = Ω x (1,2):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 8 (space), 2 (time)
+   Number of degrees of freedom: 17 (space), 8 (time)
+Slab Q_3 = Ω x (2,3):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 8 (space), 2 (time)
+   Number of degrees of freedom: 17 (space), 8 (time)
+Slab Q_4 = Ω x (3,4):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 8 (space), 2 (time)
+   Number of degrees of freedom: 17 (space), 8 (time)
+-------------------------------------------------------------
+|                REFINEMENT CYCLE: 2                         |
+-------------------------------------------------------------
+Slab Q_1 = Ω x (0,1):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 16 (space), 4 (time)
+   Number of degrees of freedom: 33 (space), 16 (time)
+Slab Q_2 = Ω x (1,2):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 16 (space), 4 (time)
+   Number of degrees of freedom: 33 (space), 16 (time)
+Slab Q_3 = Ω x (2,3):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 16 (space), 4 (time)
+   Number of degrees of freedom: 33 (space), 16 (time)
+Slab Q_4 = Ω x (3,4):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 16 (space), 4 (time)
+   Number of degrees of freedom: 33 (space), 16 (time)
+-------------------------------------------------------------
+|                REFINEMENT CYCLE: 3                         |
+-------------------------------------------------------------
+Slab Q_1 = Ω x (0,1):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 32 (space), 8 (time)
+   Number of degrees of freedom: 65 (space), 32 (time)
+Slab Q_2 = Ω x (1,2):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 32 (space), 8 (time)
+   Number of degrees of freedom: 65 (space), 32 (time)
+Slab Q_3 = Ω x (2,3):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 32 (space), 8 (time)
+   Number of degrees of freedom: 65 (space), 32 (time)
+Slab Q_4 = Ω x (3,4):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 32 (space), 8 (time)
+   Number of degrees of freedom: 65 (space), 32 (time)
+-------------------------------------------------------------
+|                REFINEMENT CYCLE: 4                         |
+-------------------------------------------------------------
+Slab Q_1 = Ω x (0,1):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 64 (space), 16 (time)
+   Number of degrees of freedom: 129 (space), 64 (time)
+Slab Q_2 = Ω x (1,2):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 64 (space), 16 (time)
+   Number of degrees of freedom: 129 (space), 64 (time)
+Slab Q_3 = Ω x (2,3):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 64 (space), 16 (time)
+   Number of degrees of freedom: 129 (space), 64 (time)
+Slab Q_4 = Ω x (3,4):
+   Finite Elements: cG(2) (space), dG(3) (time)
+   Number of active cells: 64 (space), 16 (time)
+   Number of degrees of freedom: 129 (space), 64 (time)
+
+cycle cells dofs  dofs(space) dofs(time)    L2     
+    0    16   144           9         16 4.058e-03 
+    1    64   544          17         32 5.108e-04 
+    2   256  2112          33         64 6.396e-05 
+    3  1024  8320          65        128 7.998e-06 
+    4  4096 33024         129        256 9.999e-07 
+
+n cells       L2       L2...  
+0    16 4.058e-03    -      - 
+1    64 5.108e-04 2.99      - 
+2   256 6.396e-05 3.00 2.9888 
+3  1024 7.998e-06 3.00 2.9972 
+4  4096 9.999e-07 3.00 2.9993 
